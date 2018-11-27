@@ -62,7 +62,7 @@ Migrating from existing files or database tables is similar to integrating with 
 - Be sure to handle as much data transformation in your migration_source integration as possible to reduce the complexity of the migration scripts used later
 - Try to keep the migration_source data model close to the source data model (with the exception of data type transformations which may be necessary to match SFDC data types) as the conversion to the Salesforce data model will be done with the migration scripts
 
-# Scheduling Replication vs. On Demand Replication
+# Scheduling Replication and On Demand Replication
 
 For the majority of migrations you're going to be loading relational data. In order to do this we need to be able to join our migration data to the existing data in Salesforce. DBAmp provides a number of ways to pull the Salesforce data to your local SQL database. 
 
@@ -98,7 +98,7 @@ Similarly you can use T-SQL scripts on these result tables to group errors toget
 
 # Example Scripts
 
-You can find some example scripts in the [script examples](/script-examples) folder. Most scripts will have the following basic structure:
+You can find some example scripts in the [script examples](/script%20examples) folder. Most scripts will have the following basic structure:
 
 ```sql
 --Drop the existing table in the migration_transaction db
