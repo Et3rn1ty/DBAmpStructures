@@ -1,5 +1,5 @@
 # DBAmp Structures
-------
+
 A repository for my DBAmp setup documentation and usage. This is meant as a supplemental resource for the [Official Documentation](http://forceamp.com/hats/DBAmpDoc.pdf). For installation and initial setup refer to the official documentation. This guide assumes a background in T-SQL and general familiarity with data modeling in both SQL and Salesforce.
 
 # Index
